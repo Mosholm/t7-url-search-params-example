@@ -14,10 +14,15 @@
       <li><a href="page3.html?close=yes">Yes</a></li>
       <li><a href="page3.html?close=no">No</a></li>
     </ul>
+
+
     <script>
       const urlParams = new URLSearchParams(window.location.search);
       const gender = urlParams.get("gender");
       document.querySelector(".gender").textContent = gender;
     </script>
+
+
+
   </body>
 </html>
